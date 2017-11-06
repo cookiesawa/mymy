@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]','127.0.0.1', '.pythonanywhere
 # Application definition
 
 INSTALLED_APPS = [
+    'stu',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
